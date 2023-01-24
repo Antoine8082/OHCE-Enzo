@@ -3,6 +3,8 @@ package com.ohce;
 import static org.junit.Assert.assertTrue;
 
 
+import com.ohce.helpers.PalindromeHelper;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -18,4 +20,9 @@ public class AppTest
     {
         assertTrue( true );
     }
+    @Test
+    public void reverseString() {
+        Assert.assertEquals("kfj", PalindromeHelper.reverseString("jfk"));
+    }
+
 }

@@ -1,5 +1,5 @@
 package com.ohce;
-
+import com.ohce.helpers.PalindromeHelper;
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
@@ -8,11 +8,7 @@ public class App {
         String word = sc.nextLine();
         sc.close();
 
-        String reversed = "";
-        for (int i = word.length() - 1; i >= 0; i--) {
-            reversed += word.charAt(i);
-        }
         System.out.println("Miroir :");
-        System.out.println(reversed);
+        System.out.println(PalindromeHelper.reverseString(word));
     }
 }
