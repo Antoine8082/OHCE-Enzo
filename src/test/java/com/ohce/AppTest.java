@@ -24,5 +24,14 @@ public class AppTest
     public void reverseString() {
         Assert.assertEquals("kfj", PalindromeHelper.reverseString("jfk"));
     }
+    @Test
+    public void isPalindromeFalse() {
+        Assert.assertFalse(PalindromeHelper.isPalindrome("jfk"));
+    }
+
+    @Test
+    public void isPalindromeTrue() {
+        Assert.assertTrue(PalindromeHelper.isPalindrome("ava"));
+    }
 
 }

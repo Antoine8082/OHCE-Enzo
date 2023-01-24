@@ -8,7 +8,11 @@ public class App {
         String word = sc.nextLine();
         sc.close();
 
-        System.out.println("Miroir :");
-        System.out.println(PalindromeHelper.reverseString(word));
+        String reverseWord = PalindromeHelper.reverseString(word);
+        System.out.println(reverseWord);
+
+        if(PalindromeHelper.isPalindrome(word)) {
+            System.out.println("Bien dit !");
+        }
     }
 }

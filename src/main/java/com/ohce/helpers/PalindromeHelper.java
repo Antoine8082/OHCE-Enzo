@@ -9,6 +9,19 @@ public class PalindromeHelper {
         }
         return reversed;
     }
+    public static boolean isPalindrome(String word) {
+        int i=0;
+        int longueur = word.length() - 1;
 
+        boolean isPalindrome = true;
+
+        while( i < longueur / 2 && isPalindrome){
+            if(word.charAt(i) != word.charAt(longueur-i)) {
+                isPalindrome = false;
+            }
+            i++;
+        }
+        return isPalindrome;
+    }
 
 }
