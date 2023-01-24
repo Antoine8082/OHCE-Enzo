@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="[step 1] Add isPalindrome and isPalindrome True/False tests">
+    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/I18nHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.getMessageValueWithLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OHCE_Enzo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ohce" />
+      <option name="MAIN_CLASS_NAME" value="com.ohce.AppTest" />
+      <option name="METHOD_NAME" value="getMessageValueWithLocal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest.isPalindromeFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OHCE_Enzo" />
       <extension name="coverage">
@@ -117,6 +136,7 @@
       <list>
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.getMessageValueWithLocal" />
         <item itemvalue="JUnit.AppTest.isPalindromeFalse" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
       </list>
@@ -166,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674560747623</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome.">
+      <created>1674585218444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674585218444</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +214,7 @@
     <MESSAGE value="[step 1] Add mirror prototype and test App" />
     <MESSAGE value="[step 1] Add PalindromeHelper and test reverseString" />
     <MESSAGE value="[step 1] Add isPalindrome and isPalindrome True/False tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="[step 1] Add isPalindrome and isPalindrome True/False tests" />
+    <MESSAGE value="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome." />
+    <option name="LAST_COMMIT_MESSAGE" value="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome." />
   </component>
 </project>
