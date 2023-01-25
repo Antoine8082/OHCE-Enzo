@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="Bug correction in [step 1] isPalindrome was not working with 2 character.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/ConsoleHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohce/I18nTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ohce/PalindromeTest.java" afterDir="false" />
+    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="Tests refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/I18nHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/I18nHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohce/I18nTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohce/I18nTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohce.App" />
       <module name="OHCE_Enzo" />
@@ -90,22 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.getMessageValueWithLocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OHCE_Enzo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ohce.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ohce" />
-      <option name="MAIN_CLASS_NAME" value="com.ohce.AppTest" />
-      <option name="METHOD_NAME" value="getMessageValueWithLocal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="I18nTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OHCE_Enzo" />
       <extension name="coverage">
@@ -117,6 +93,22 @@
       <option name="PACKAGE_NAME" value="com.ohce" />
       <option name="MAIN_CLASS_NAME" value="com.ohce.I18nTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I18nTest.getMessageDefaultValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OHCE_Enzo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ohce" />
+      <option name="MAIN_CLASS_NAME" value="com.ohce.I18nTest" />
+      <option name="METHOD_NAME" value="getMessageDefaultValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeTest" />
-        <item itemvalue="JUnit.I18nTest" />
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.AppTest.getMessageValueWithLocal" />
+        <item itemvalue="JUnit.I18nTest.getMessageDefaultValue" />
+        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.I18nTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674636082529</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tests refactor">
+      <created>1674638163363</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674638163363</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +234,7 @@
     <MESSAGE value="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome." />
     <MESSAGE value="[step 2] Add I18n manager prototype and test" />
     <MESSAGE value="Bug correction in [step 1] isPalindrome was not working with 2 character." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug correction in [step 1] isPalindrome was not working with 2 character." />
+    <MESSAGE value="Tests refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests refactor" />
   </component>
 </project>
