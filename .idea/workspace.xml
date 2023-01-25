@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/I18nHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" afterDir="false" />
+    <list default="true" id="b870539c-b6ef-4d44-9e8a-6a9aadfbe353" name="Changes" comment="[step 2] Add I18n manager prototype and test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohce/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohce/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/PalindromeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohce/helpers/PalindromeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messages_en_EN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Messages_fr_FR.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +52,10 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.general"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ohce.App" />
       <module name="OHCE_Enzo" />
@@ -134,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.getMessageValueWithLocal" />
         <item itemvalue="JUnit.AppTest.isPalindromeFalse" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674585218444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[step 2] Add I18n manager prototype and test">
+      <created>1674587499252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674587499252</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +222,7 @@
     <MESSAGE value="[step 1] Add PalindromeHelper and test reverseString" />
     <MESSAGE value="[step 1] Add isPalindrome and isPalindrome True/False tests" />
     <MESSAGE value="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome." />
-    <option name="LAST_COMMIT_MESSAGE" value="[step 1] Add &quot;Bonjour...&quot; and &quot;Au revoir.&quot;.&#10;I placed &quot;Bonjour...&quot; before text input and not after as requested, it seems more logical.&#10;I added some UI text to ask a word and explain that we will check if it's a palindrome." />
+    <MESSAGE value="[step 2] Add I18n manager prototype and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="[step 2] Add I18n manager prototype and test" />
   </component>
 </project>

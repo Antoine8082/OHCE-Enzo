@@ -8,14 +8,14 @@ public class App {
         String word = sc.nextLine();
         sc.close();
         String reverseWord = PalindromeHelper.reverseString(word);
-        System.out.println("Résultat : " + reverseWord);
+        System.out.println("-> " + reverseWord + " <-");
 
         if(PalindromeHelper.isPalindrome(word)) {
             System.out.println("Bien dit !");
         }
-            else{
-                System.out.println("Raté !");
-            }
+        else{
+            System.out.println("Raté !");
+        }
 
 
         System.out.println("Au revoir.");
