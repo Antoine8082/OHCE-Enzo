@@ -1,4 +1,5 @@
 package com.ohce;
+
 import com.ohce.helpers.ConsoleHelper;
 import com.ohce.helpers.PalindromeHelper;
 
