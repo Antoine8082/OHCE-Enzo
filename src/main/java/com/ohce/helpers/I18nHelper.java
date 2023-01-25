@@ -16,4 +16,7 @@ public class I18nHelper {
             return key;
         }
     }
+    public static String getPeriodsMessage(String key) {
+        return "";
+    }
 }

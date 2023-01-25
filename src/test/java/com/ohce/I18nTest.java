@@ -17,6 +17,8 @@ public class I18nTest {
     @Before
     public void saveDefaultLocale() {
         defaultLocale = Locale.getDefault();
+        Locale frLocale = new Locale("fr_FR");
+        Locale.setDefault(frLocale);
     }
 
     @After
@@ -31,18 +33,32 @@ public class I18nTest {
     @Test
     public void getMessageValueWithEnLocale(){
         Locale enLocale = new Locale("en_EN");
-
         Locale.setDefault(enLocale);
-
         Assert.assertEquals("Hello.", I18nHelper.getMessage("enter.hello"));
     }
 
     @Test
     public void getMessageValueWithFrLocale(){
-        Locale frLocale = new Locale("fr_FR");
-
-        Locale.setDefault(frLocale);
 
         Assert.assertEquals("Bonjour.", I18nHelper.getMessage("enter.hello"));
+    }
+    @Test
+    public void getPeriodsMessageAM() {
+        Assert.assertEquals("Bonne matinée.", I18nHelper.getPeriodsMessage("enter.morning"));
+    }
+
+    @Test
+    public void getPeriodsMessagePM() {
+        Assert.assertEquals("Bon après-midi.", I18nHelper.getPeriodsMessage("enter.afternoon"));
+    }
+
+    @Test
+    public void getPeriodsMessageEvening() {
+        Assert.assertEquals("Bonsoir.", I18nHelper.getPeriodsMessage("enter.evening"));
+    }
+
+    @Test
+    public void getPeriodsMessageNight() {
+        Assert.assertEquals("Bonne nuit.", I18nHelper.getPeriodsMessage("enter.night"));
     }
 }
